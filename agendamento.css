@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lobster&display=swap');
+
+body{
+    background-color: rgb(62, 61, 65); 
+    min-height: 50vh;
+    background-image: url(img/gatoolho.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', sans-serif;
+}
+.container{
+border: solid 3px black;
+border-radius: 10px;
+backdrop-filter: blur(10px);
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 600px;
+height: 950px;
+margin-top: 80px;
+margin-left: 100px;
+float: right;
+padding: 10px;
+
+}
+h1{
+    color: rgb(87, 5, 5);
+    font-family: 'Cormorant Garamond', serif;
+}
+aside{
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    float: right;
+
+}
+.input-box{
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.btn{
+    
+    border-radius: 5px;
+    color: antiquewhite;
+}
+button{
+    background: black;
+    height: 20px;
+    width: 100px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+li{
+    display: flex;
+    margin: 5px;
+    
+    
+}
+ul{
+    display: flex;
+    padding: 5px;
+   
+    
+   
+    
+}
+a{
+    color: rgb(15, 15, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid;
+    border-radius:5px;
+    background: rgb(241, 235, 233);
+    
+    
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    
+}
+
