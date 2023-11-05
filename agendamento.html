@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <a href="meuspets.html"></a>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/IMG-20230826-WA0065-removebg-preview.png" alt="" style="color: rgb(189, 219, 54);">
+        </div>
+        <div class="menu"></div>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Quem Somos</a></li>
+    <li><a href="#">Cadastre-se</a></li>
+    <li><a href="#">Fale Conosco</a></li>
+    
+</ul>
+</div>
+    </nav>
+      
+    
+    
+    <div class="container">
+        <h1>Agendar seu Horario </h1>
+        <label for="Dados"></label>   <!--dados do cliente-->
+        <input type="text" name="nome do paciente" placeholder="Cliente" class="input-box"> <br><br>        
+        <input type="text" name="endereço" placeholder="Endreço" class="input-box"> <br><br>
+        <div class="n">
+            <input type="number" name="Numero" placeholder="N°" class="input-box"> <br><br>  
+        </div>
+        <input type="text" name="Cep" placeholder="Cep" class="input-box"> <br><br>
+        <!--dados do animal-->
+
+        <input type="text" name="Nome do Animal" placeholder="nome do animal" class="input-box"> <br><br>
+        <input type="text" name="Especie" placeholder="Especie" class="input-box"> <br><br>
+        
+        <input type="text" name="Raça" placeholder="Raça" class="input-box"> <br><br>
+        <br>
+        Historico Animal:
+       <textarea name="historico" id="historico" cols="30" rows="10"></textarea>
+       <hr>
+       porte
+        <div class="portes">
+        <input type="radio" name="tamanho" id="Pequeno"> Pequeno  <input type="radio" name="tamanho" id="Medio"> Médio <input type="radio" name="tamanho" id="Grande"> Grande <br><br>
+    </div>
+    
+    <div class="sexo">
+        <input type="radio" name="Macho" id="Macho"> Macho  <input type="radio" name="Femea" id="Femea"> Femea <br><br>
+    </div>
+       <input type="datetime-local" name="data" id="data">
+        
+       <h4>Pet castrado</h4>
+       <div class="s.n">
+       <input type="radio" name="Sim" id="Sim"> Sim    <input type="radio" name="Não" id="Não"> Não <br><br>
+    </div>
+    <div class="btn">
+       <button type="button" value="Agendar">Agendar</button>
+    </div>
+
+    
+</body>
+</html>
